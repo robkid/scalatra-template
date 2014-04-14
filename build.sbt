@@ -1,4 +1,4 @@
-name := "scalate-template"
+name := "scalatra-template"
 
 version := "1.0"
 
