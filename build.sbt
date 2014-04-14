@@ -10,11 +10,8 @@ unmanagedSourceDirectories in Test <<= (scalaSource in Test)(Seq(_))
 
 org.scalatra.sbt.ScalatraPlugin.scalatraSettings
 
-com.mojolly.scalate.ScalatePlugin.scalateSettings
-
 libraryDependencies ++= Seq(
   "org.scalatra" %% "scalatra" % "2.2.2" exclude("org.slf4j", "slf4j-log4j12"),
-  "org.scalatra" %% "scalatra-scalate" % "2.2.2",
   "org.scalatra" %% "scalatra-scalatest" % "2.2.2" % "test",
   "ch.qos.logback" % "logback-classic" % "1.0.13" % "runtime",
   "org.scalatest" % "scalatest_2.10"  % "2.0" % "test",

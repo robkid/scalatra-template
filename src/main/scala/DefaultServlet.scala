@@ -1,7 +1,6 @@
 import org.scalatra.ScalatraServlet
-import org.scalatra.scalate.ScalateSupport
 
-class DefaultServlet extends ScalatraServlet with ScalateSupport {
+class DefaultServlet extends ScalatraServlet {
   get("/") {
     <html>
       <body>
